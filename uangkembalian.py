@@ -1,5 +1,5 @@
 
-uang_semula =5000
-harga_cilok = 3000
-kembalian =uang_semula-harga_cilok
-print("Uang kembalian %i"%kembalian)
+uang_semula =int(input("Masukan uang anda : "))
+uang_dikeluarkan = int(input("Masukan uang yang di belanjakan : "))
+kembalian =uang_semula-uang_dikeluarkan
+print("Uang kembalian Rp.%i"%kembalian)
