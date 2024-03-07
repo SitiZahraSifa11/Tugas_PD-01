@@ -34,18 +34,18 @@ def hitungNilai(nilai):
     else:
         return 'E', 0
 
-algoritma = float(input("Masukkan nilai Algoritma: "))
-sks_algoritma = int(input("Masukkan SKS Algoritma: "))
-perancangan_objek = float(input("Masukkan nilai Perancangan Objek: "))
-sks_perancangan_objek = int(input("Masukkan SKS Perancangan Objek: "))
-kalkulus = float(input("Masukkan nilai Kalkulus: "))
-sks_kalkulus = int(input("Masukkan SKS Kalkulus: "))
-etika_profesi = float(input("Masukkan nilai Etika Profesi: "))
-sks_etika_profesi = int(input("Masukkan SKS Etika Profesi: "))
-databases = float(input("Masukkan nilai Databases: "))
-sks_databases = int(input("Masukkan SKS Databases: "))
-english = float(input("Masukkan nilai English: "))
-sks_english = int(input("Masukkan SKS English: "))
+algoritma = float(input("Masukkan nilai Algoritma            : "))
+sks_algoritma = int(input("Masukkan SKS Algoritma              : "))
+perancangan_objek = float(input("Masukkan nilai Perancangan Objek    : "))
+sks_perancangan_objek = int(input("Masukkan SKS Perancangan Objek      : "))
+kalkulus = float(input("Masukkan nilai Kalkulus             : "))
+sks_kalkulus = int(input("Masukkan SKS Kalkulus               : "))
+etika_profesi = float(input("Masukkan nilai Etika Profesi        : "))
+sks_etika_profesi = int(input("Masukkan SKS Etika Profesi          : "))
+databases = float(input("Masukkan nilai Databases            : "))
+sks_databases = int(input("Masukkan SKS Databases              : "))
+english = float(input("Masukkan nilai English              : "))
+sks_english = int(input("Masukkan SKS English                : "))
 
 total_sks = sks_algoritma + sks_perancangan_objek + sks_kalkulus + sks_etika_profesi + sks_databases + sks_english
 
